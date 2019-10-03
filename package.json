@@ -1,0 +1,23 @@
+{
+  "name": "bookstore",
+  "version": "1.0.0",
+  "description": "A simple Bookstore app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "author": "Abhishek Passan",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.6.13",
+    "mongoose-timestamp": "^0.6.0",
+    "timestamp": "0.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.2"
+  }
+}
